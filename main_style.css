@@ -5,6 +5,10 @@
 	src: local('Kyiv*Type Sans'),
 		url('G:\WebDev\Школьный туризм\Сайт\fonts\KyivTypeSans-VarGX.ttf') format('ttf'),
 } */
+/* .menu-div {
+    display: flex;
+    justify-content: space-between;
+} */
 .menu {
     list-style: none;
     margin-left: auto;
@@ -12,8 +16,16 @@
     display: flex;
     background-color: #E6E6E6;
     align-items: center;
+    justify-content: space-between;
     height: 80px;
     box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.75);
+}
+.menu-part {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
 }
 .menu-logo-text {
     display: flex;
@@ -41,8 +53,15 @@
     margin: 0 15px;
     justify-self: right;
 }
+.menu-btn img {
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border-radius: 100px;
+    justify-self: right;
+}
 .menu-btn-current {
-    text-decoration: underline #707070;
+    text-decoration: underline #707070 5px;
     display: flex;
     color: rgb(0, 0, 0);
     /* font-family: 'Kyiv*Type Sans'; */
@@ -50,4 +69,58 @@
     font-weight: bolder;
     margin: 0 15px;
     justify-self: right;
+}
+.news-other {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #CECECE;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin: 0 15px;
+    margin-right: 2px;
+    height: 300px;
+    width: 195px;
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.25);
+}
+.news-other-item-bold {
+    display: flex;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: flex-end;
+}
+.news-other-item img {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+    width: 240px;
+}
+.news-other-main {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: aquamarine; /* ДЛЯ ТЕСТА */
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    height: 300px;
+    width: 810px;
+}
+.news-main {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #CECECE;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 300px;
+    width: 700px;
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.25);
 }
