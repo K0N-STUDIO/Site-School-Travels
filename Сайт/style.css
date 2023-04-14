@@ -6,6 +6,13 @@
     font-family: Marmelad;
     src: url(/fonts/Marmelad-Regular.ttf);
 }
+body {
+    margin: 0;
+}
+main {
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
 .h3-news {
     font-family: Marmelad;
     font-weight: bolder;
@@ -40,6 +47,10 @@
     color: #FFFFFF;
 }
 .menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     list-style: none;
     margin: 0px;
     display: flex;
@@ -126,6 +137,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
     justify-content: space-between;
     margin-top: 20px;
     margin-left: 270px;
@@ -180,7 +192,6 @@
     font-size: 14px;
     text-decoration: underline;
     color: #FFFFFF;
-    width: 1875px;
     height: 205px;
     padding: 10px;
 }
