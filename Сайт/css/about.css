@@ -1,0 +1,60 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #CECECE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35) inset;
+    margin-top: 60px;
+    width: 1229px;
+    height: 526px;
+    align-items: center;
+}
+p {
+    font-family: Marmelad;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+}
+.goal {
+    width: 413px;
+    height: 128px;
+    margin-left: 63px;
+    margin-top: 10px;
+}
+.divider {
+    height: 323px;
+    width: 80px;
+    display: flex;
+    margin-left: 108px;
+}
+.divider img {
+    height: 323px;
+    width: 80px;
+}
+.actual {
+    width: 540px;
+    height: 338px;
+    margin-left: 9px;
+}
+.title {
+    width: auto;
+    height: 32px;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.author {
+    width: 397px;
+    height: 96px;
+    margin-left: 63px;
+}
+.teachers {
+    width: 545px;
+    height: 90px;
+    margin-left: 9px;
+    margin-top: 51px;
+}

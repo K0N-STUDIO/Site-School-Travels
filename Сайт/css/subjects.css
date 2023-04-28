@@ -1,0 +1,80 @@
+.subjects {
+    height: 989px;
+    width: 1483px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.pair {
+    height: 258px;
+    width: 1483px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subject {
+    display: flex;
+    flex-direction: column;
+    height: 258px;
+    width: 705px;
+    background-color: #d9d9d9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35) inset;
+}
+h3 {
+    margin-top: 10px;
+    font-family: Marmelad;
+    font-weight: normal;
+    font-size: 32px;
+    color: #c3c3c3;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+p {
+    font-family: Marmelad;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin-left: 7px
+}
+.image {
+    display: flex;
+    justify-content: center;
+    width: 678px;
+    height: 159px;
+    margin-top: 10px;
+    margin-right: 14px;
+    margin-left: 14px;
+    border-radius: 48px 48px 0px 0px;
+    background-size: cover;
+}
+#history {
+    background-image: url(../images/history.jpg);
+}
+#obz {
+    background-image: url(../images/obz.jpg);
+}
+#literature {
+    background-image: url(../images/literature.jpg);
+}
+#geometry {
+    background-image: url(../images/geometry.jpg);
+}
+#physics {
+    background-image: url(../images/physics.jpg);
+}
+#geography {
+    background-image: url(../images/geography.jpg);
+}
+.text {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 678px;
+    height: 80px;
+    margin-right: 14px;
+    margin-left: 14px;
+    background-color: #737373;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25) inset;
+}
